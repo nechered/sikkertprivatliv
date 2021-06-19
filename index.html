@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Sikkertprivatliv - Veien til et sikrere privatliv</title>
+        <!-- Favicon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+            <!-- Header-->
+        <header class="py-5">
+            <div class="container px-lg-5">
+                <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
+                    <div class="m-4 m-lg-5">
+                        <h1 class="display-5 fw-bold">Velkommen til et sikrere privatliv</h1>
+                        <p class="fs-5">Formålet med prosjektet Sikkertprivatliv.no er å gi gode råd og alternativer om hvordan du kan bedre ta vare på ditt privatliv på nett.
+Prosjektet er basert på privacytools.io og selv om jeg benyttet meg av mange av deres ressurser, så foretrakk jeg å lage en norsk alternativ fremfor en direkte oversettelse.
+Det jobbes kontinuerlig med nettsiden, både med nytt innhold og bedring av innholdet som allerede er publisert.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Page Content-->
+        <section class="pt-4">
+            <div class="container px-lg-5">
+                <!-- Page Features-->
+                <div class="row gx-lg-5">
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-chat-right-dots"></i></div>
+                                <h2 class="fs-4 fw-bold"><a href="#melding">Meldingstjenester</a></h2>
+                                <p class="mb-0">Meldingstjenester er en viktig del av vår hverdag, men har du tenkt på hvor private disse samtaler er? I denne seksjonen finne du råd om applikasjoner som støtter respekterer ditt privatliv.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-camera-video"></i></div>
+                                <h2 class="fs-4 fw-bold"><a href="#tale">Video og tale tjenester</a></h2>
+                                <p class="mb-0">Slikt som det er med meldingstjenester kan dine tale- og videosamtaler bli overvåket slik at selskapene bak tjenesten kan servere bedre annonser til deg.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-globe"></i></div>
+                                <h2 class="fs-4 fw-bold"><a href="#nettlesere">Nettlesere</a></h2>
+                                <p class="mb-0">Nettlesere viktige verktøy for oss alle, samtidig kan nettlesere se alt vi gjør når vi surrfer. Hva vi søker på, hva vi klikker og til og med hva vi skulle til å søke men så ombestemte oss.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-inbox"></i></div>
+                                <h2 class="fs-4 fw-bold"><a href="#epost">E-post</a></h2>
+                                <p class="mb-0">Vi mottar i dag mye informasjon gjennom e-post som de fleste av oss ville anse som privat, se over din innboks og spør deg selv "er jeg komfortabel med å vise all denne informasjonen til mine venner?". Vår innboks inneholder veldig mye informasjon om hvem vi er.</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+            </section>
+        <hr>
+
+          <!--Sikre meldingstjenester-->
+        <section class="pt-4">
+            <div class="container px-lg-5">
+              <div class="card bg-light border-0 h-100"><div id="meldinger"></div>
+                  <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                  <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-chat-right-dots"></i></div>
+                  <h2 class="fs-4 fw-bold">Sikre meldingstjenester</h2>
+                  <p class="mb-3">
+                    Meldingstjenester er en viktig del av vår hverdag, men har du tenkt på hvor private disse samtaler er?
+                    Messenger fra Facebook eller Allo fra Google, tar de vare på ditt privatliv?
+                    I denne seksjonen finne du tips applikasjoner som støtter krypterte meldinger. Dette betyr at meldingene kun kan sees av sender og mottaker (heller ikke av selskapet bak applikasjonen).
+                    </p>
+
+                    <h3 class="fs-4 fw-bold"><a href="https://signal.org/">Signal</a></h3>
+                    <p class="mb-1">
+                      Signal er utviklet av Open Whisper Systems og i tillegg til å støtte krypterte meldinger, støtter den også video og tale.
+                      Er den mest kjente og utbredte applikasjonen, har den største brukerbasen.
+                    </p>
+                    <p class="mb-1">
+                    <table>
+                     <tr>
+                       <td>
+                       <a href="https://signal.org/" >
+                    <img src="img/Open-Whisper-Systems.png" alt="Signal" height="60" width="60" />
+                    </a>
+                      </td>
+                       <td>
+                       OS: iOS, Android, Chrome applikasjon
+                       </td>
+                     </tr>
+                    </table>
+                    </p>
+
+                  <h3 class="fs-4 fw-bold"><a href="https://get.wire.com/">Wire</a></h3>
+                    <p class="mb-1">
+                    Er utviklet i Sveits, og i tillegg til å støtte krypterte meldinger, støtter den også video og tale. Wire har også har også desktop applikasjoner i tillegg til mobil applikasjoner.
+                    <table>
+                     <tr>
+                       <td>
+                        <a href="https://get.wire.com/">
+                    <img src="img/wire.png" alt="Wire" height="60" width="60" />
+                    </a>
+                      </td>
+                       <td>
+                       OS: iOS, Android, Windows, macOS, Web
+                       </td>
+                     </tr>
+                    </table>
+                    </p>
+
+                  <h3 class="fs-4 fw-bold"><a href="https://www.crypho.no/">Crypho</a></h3>
+                    <p class="mb-1">
+                    Crypho er basert og utviklet i Norge. Den kan benyttes til å sende krypterte meldinger og filer, du kan også opprette grupper. Den har også desktop applikasjoner.
+                    <table>
+                     <tr>
+                       <td>
+                        <a href="https://www.crypho.no/" >
+                    <img src="img/crypho.png" alt="Crypho" height="60" width="60" />
+                    </a>
+                      </td>
+                       <td>
+                       OS: iOS, Android, Windows, macOS, Web
+                       </td>
+                     </tr>
+                    </table>
+                    </p>
+                  </div>
+                  </div>
+                </div>
+            </section>
+          <hr>
+          <!-- Sikre video og tale applikasjoner-->
+        <section class="pt-4">
+            <div class="container px-lg-5">
+              <div class="card bg-light border-0 h-100"><div id="tale"></div>
+                  <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                  <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-camera-video"></i></div>
+                  <h2 class="fs-4 fw-bold">Sikre video og tale applikasjoner</h2>
+                  <p class="mb-3">Slikt som det er med meldingstjenester blir også dine samtaler og videosamtaler overvåket slik at selskapene bak enkelte tjenester kan servere bedre annonser til deg.
+Samtidig kan applikasjonen lekke informasjon om deg, dette har skjedd med f.eks Skype. Derfor er det viktig å velge en applikasjonen som vil beskytte ditt privatliv. </p>
+
+                    <h3 class="fs-4 fw-bold"><a href="https://signal.org/">Signal</a></h3>
+                    <p class="mb-1">
+                    Signal er utviklet av Open Whisper Systems og i tillegg til å støtte krypterte meldinger, støtter den også video og tale.
+                    Er den mest kjente og utbredte applikasjonen, har den største brukerbasen.
+                    </p>
+                    <p class="mb-1">
+                    <table>
+                     <tr>
+                       <td>
+                       <a href="https://signal.org/">
+                    <img src="img/Open-Whisper-Systems.png" alt="Signal" height="60" width="60" />
+                    </a>
+                      </td>
+                       <td>
+                       OS: iOS, Android, Chrome applikasjon
+                       </td>
+                     </tr>
+                    </table>
+                    </p>
+
+                  <h3 class="fs-4 fw-bold"><a href="https://get.wire.com/">Wire</a></h3>
+                    <p class="mb-1">
+                    Er utviklet i Sveits, og i tillegg til å støtte krypterte meldinger, støtter den også video og tale. Wire har også har også desktop applikasjoner i tillegg til mobil applikasjoner.
+                    <table>
+                     <tr>
+                       <td>
+                        <a href="https://get.wire.com/" >
+                    <img src="img/wire.png" alt="Wire" height="60" width="60" />
+                    </a>
+                      </td>
+                       <td>
+                       OS: iOS, Android, Windows, macOS, Web
+                       </td>
+                     </tr>
+                    </table>
+                    </p>
+                  </div>
+                  </div>
+                </div>
+              </section>
+  <hr>
+        <!--Nettlesere-->
+      <section class="pt-4">
+          <div class="container px-lg-5">
+            <div class="card bg-light border-0 h-100"><div id="nettlesere"></div>
+                <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-globe"></i></div>
+                <h2 class="fs-4 fw-bold">Nettlesere</h2>
+                <p class="mb-3">
+                  Nettlesere har blitt et veldig viktig verktøy for oss alle, samtidig kan nettlesere se alt vi gjør. Hva vi surfer på, hva vi søker på, hva vi klikker og til og med hva vi skulle til å søke men så ombestemte oss.
+Om selskapet bak nettleseren benytter denne informasjonen til andre formål er det mulig for dem å bygge opp en ganske nøyaktig profil over dine surfevaner og hvem du er.
+Derfor er det viktig at selskapet bak nettleseren vil respektere ditt privatliv og ikke selge opplysninger om deg.
+Alternativene under er alternativer til nettlesere som vil respektere ditt privatliv.
+                  </p>
+
+                  <h3 class="fs-4 fw-bold"><a href="https://www.mozilla.org/nb-NO/firefox/new/">Firefox</a></h3>
+                  <p class="mb-1">
+                  Mozilla Firefox er en av de største nettlesere på markedet i dag. Mozilla har vært tydelig på at de tar vare personvernrettighetene til brukerne.
+                  </p>
+                  <p class="mb-1">
+                    <table>
+         <tr>
+           <td>
+           <a href="https://www.mozilla.org/nb-NO/firefox/new/" >
+        <img src="img/firefox.png" alt="Firefox" height="50" width="50" />
+        </a>
+          </td>
+           <td>
+           OS: Windows, macOS, Linux
+           </td>
+         </tr>
+        </table>
+                  </p>
+
+                <h3 class="fs-4 fw-bold"><a href="https://iridiumbrowser.de/" >Iridium Browser</a></h3>
+                  <p class="mb-1">
+                  Basert på Chromium (Google Chrome), men har fått fjernet alle koblinger til Google. Fungerer på samme måte som Google Chrome og støtter de aller fleste Chrome applikasjoner.
+                  <table>
+                    <tr>
+                      <td>
+                        <a href="https://iridiumbrowser.de/" >
+                          <img src="img/iridium.png" alt="Iridium Browser" height="50" width="50" />  </a>
+                      </td>
+                      <td>
+                        OS: Windows, macOS, Linux
+                      </td>
+                    </tr>
+                  </table>
+                  </p>
+
+                <h3 class="fs-4 fw-bold"><a href="https://vivaldi.com/?lang=nb_NO">Vivaldi</a></h3>
+                  <p class="mb-1">
+                  Fra mannen som sto bak nettleseren Opera, dette er et nyt forsøkt på en moderne nettleser. Støtter også Chrome tillegg.
+                  <table>
+                    <tr>
+                      <td>
+                        <a href="https://vivaldi.com/?lang=nb_NO" >
+                          <img src="img/vivaldi.png" alt="Vivaldi" />
+                        </a>
+                      </td>
+                      <td>
+                        OS: Windows, macOS, Linux
+                      </td>
+                    </tr>
+                  </table>
+                  </p>
+                </div>
+                </div>
+              </div>
+      </section>
+  <hr>
+      <!--Epost-->
+    <section class="pt-4">
+        <div class="container px-lg-5">
+          <div class="card bg-light border-0 h-100"><div id="epost"></div>
+              <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+              <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-inbox"></i></div>
+              <h2 class="fs-4 fw-bold">E-post tjenester</h2>
+              <p class="mb-3">
+                Noensinne lurt på hvorfor Gmail eller Outlook er gratis?
+  Vi mottar i dag mye informasjon gjennom e-post som de fleste av oss ville anse som privat, se over din innboks og spør deg selv "er jeg komfortabel med å vise all denne informasjonen til mine venner?". Vår innboks inneholder veldig mye informasjon om hvem vi er.
+  Er e-postene du har i din innboks nå noe du er komfortabel med at alle på jobben visste om? Så er det greit at din e-postleverandør leser alt?
+  E-post bør beskyttes, den bør behandles av en leverandør som ikke vil tjene penger på informasjonen som finnes der. </p>
+
+                <h3 class="fs-4 fw-bold"><a href="https://protonmail.com/">Protonmail</a></h3>
+                <p class="mb-1">
+
+                </p>
+                <p class="mb-1">
+                  <table>
+       <tr>
+         <td>
+         <a href="https://protonmail.com/">
+      <img src="img/protonmail.png" alt="Protonmail" height="50" width="40" />
+      </a>
+        </td>
+         <td>
+         Pris: Gratis med 500 MB lagring (€4 pr mnd for 5 GB lagring, samt mulighet for egen domene).
+         </td>
+       </tr>
+      </table>
+                </p>
+
+              <h3 class="fs-4 fw-bold"><a href="https://www.fastmail.com/">Fastmail</a></h3>
+                <p class="mb-1">
+                
+                <table>
+                  <tr>
+                    <td>
+                      <a href="https://www.fastmail.com/">
+                        <img src="img/fm.png" alt="Fastmail" height="50" width="50" />  </a>
+                    </td>
+                    <td>
+                      Pris: $3 pr mnd med 2GB lagring og mulighet for egen domene.
+                    </td>
+                  </tr>
+                </table>
+                </p>
+
+              </div>
+              </div>
+            </div>
+    </section>
+    <hr>
+
+    <!--Kontakt-->
+  <section class="py-5 bg-gradiant">
+      <div class="container">
+          <h2 class="fs-4 fw-bold">Om denne nettsiden</h2>
+          <p class="mb-3">
+            Vi gjør dette frivillig og har ingen kostnader med å drive nettsiden, derfor har vi heller ikke bruk for reklame eller analyser av trafikken.
+          </p>
+  </div>
+</section>
+
+
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Dette verk er lisensiert under en <a href="https://creativecommons.org/licenses/by/4.0/deed.no">Creative Commons Navngivelse 4.0 Internasjonal lisens.</a></p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
